@@ -16,7 +16,4 @@ public class MySQLJDBCUtil {
         conn = DriverManager.getConnection(url, user, password);
         return conn;
     }
-
-
-
 }
