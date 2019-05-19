@@ -21,283 +21,791 @@ public class Pencere2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jComboBox1 = new javax.swing.JComboBox();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
-        gBirth = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
-        gPhone = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
-        gEmail = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
-        table = new javax.swing.JTable();
-        refreshButton = new javax.swing.JButton();
-        addButon = new javax.swing.JButton();
+        hammaddeUretenFirmaTablo = new javax.swing.JTable();
+        jPanel4 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        gFirstName = new javax.swing.JTextField();
+        gFirmaAdi = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        gLastName = new javax.swing.JTextField();
+        gSehir = new javax.swing.JTextField();
+        firmaEkle = new javax.swing.JButton();
+        jPanel6 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        uID = new javax.swing.JTextField();
-        jLabel11 = new javax.swing.JLabel();
-        uFirstName = new javax.swing.JTextField();
-        jLabel12 = new javax.swing.JLabel();
-        uLastName = new javax.swing.JTextField();
-        jLabel13 = new javax.swing.JLabel();
-        uPhone = new javax.swing.JTextField();
-        jLabel14 = new javax.swing.JLabel();
-        uEmail = new javax.swing.JTextField();
-        updateFirstName = new javax.swing.JButton();
-        updateLastName = new javax.swing.JButton();
-        updatePhone = new javax.swing.JButton();
-        updateEmail = new javax.swing.JButton();
+        gID = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        gElement = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        gMiktar = new javax.swing.JTextField();
+        jLabel15 = new javax.swing.JLabel();
+        gUretimTarihi = new javax.swing.JTextField();
+        jLabel16 = new javax.swing.JLabel();
+        gSatisFiyati = new javax.swing.JTextField();
+        jLabel17 = new javax.swing.JLabel();
+        gRafOmru = new javax.swing.JTextField();
+        hammaddeEkle = new javax.swing.JButton();
+        tabloYenille = new javax.swing.JButton();
+        tabloYenile2 = new javax.swing.JButton();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        gID2 = new javax.swing.JTextField();
+        jLabel23 = new javax.swing.JLabel();
+        gFirmaAdi2 = new javax.swing.JTextField();
+        jLabel24 = new javax.swing.JLabel();
+        gSehir2 = new javax.swing.JTextField();
+        jLabel25 = new javax.swing.JLabel();
+        gYeniElement = new javax.swing.JTextField();
+        firmaAdiGuncelle = new javax.swing.JButton();
+        sehirAdiGuncelle = new javax.swing.JButton();
+        elementGuncelle = new javax.swing.JButton();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        gMiktar2 = new javax.swing.JTextField();
+        gUretimTarihi2 = new javax.swing.JTextField();
+        gSatisFiyati2 = new javax.swing.JTextField();
+        jLabel29 = new javax.swing.JLabel();
+        gRafOmru2 = new javax.swing.JTextField();
+        miktarGuncelle = new javax.swing.JButton();
+        uretimTarihiGuncelle = new javax.swing.JButton();
+        satisFiyatiGuncelle = new javax.swing.JButton();
+        rafOmruGuncelle = new javax.swing.JButton();
+        jLabel33 = new javax.swing.JLabel();
+        gGecerliElement = new javax.swing.JTextField();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        firmaHammaddeTablosu = new javax.swing.JTable();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        musteriTablosu = new javax.swing.JTable();
         jPanel3 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
-        getCustomerName = new javax.swing.JTextField();
-        jLabel7 = new javax.swing.JLabel();
-        getAddress = new javax.swing.JTextField();
-        getProduct = new javax.swing.JTextField();
-        jLabel8 = new javax.swing.JLabel();
-        addNewCustomer = new javax.swing.JButton();
-        jPanel5 = new javax.swing.JPanel();
+        gMusteriAdi = new javax.swing.JTextField();
+        musteriEkle = new javax.swing.JButton();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        gMusteriID = new javax.swing.JTextField();
+        jLabel11 = new javax.swing.JLabel();
+        gMusteriAdi2 = new javax.swing.JTextField();
+        jLabel12 = new javax.swing.JLabel();
+        gSehir3 = new javax.swing.JTextField();
+        jLabel14 = new javax.swing.JLabel();
+        gUrunAdi2 = new javax.swing.JTextField();
+        jLabel18 = new javax.swing.JLabel();
+        gUrunMiktari2 = new javax.swing.JTextField();
+        musteriAdiGuncelle = new javax.swing.JButton();
+        sehirGuncelle = new javax.swing.JButton();
+        urunAdiGuncelle = new javax.swing.JButton();
+        urunMiktariGuncelle = new javax.swing.JButton();
+        tabloYenile4 = new javax.swing.JButton();
+        tabloYenile3 = new javax.swing.JButton();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        sehirMesafeTablosu = new javax.swing.JTable();
+        jPanel8 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
+        gSehirID = new javax.swing.JTextField();
+        jLabel19 = new javax.swing.JLabel();
+        gSehir4 = new javax.swing.JTextField();
+        jLabel20 = new javax.swing.JLabel();
+        gMesafe = new javax.swing.JTextField();
+        jLabel21 = new javax.swing.JLabel();
+        gBolge2 = new javax.swing.JTextField();
+        sehirAdiGuncelle2 = new javax.swing.JButton();
+        sehirMesafeGuncelle = new javax.swing.JButton();
+        bolgeGuncelle = new javax.swing.JButton();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel30 = new javax.swing.JLabel();
+        gSehir5 = new javax.swing.JTextField();
+        jLabel31 = new javax.swing.JLabel();
+        gMesafe2 = new javax.swing.JTextField();
+        jLabel32 = new javax.swing.JLabel();
+        gBolge = new javax.swing.JTextField();
+        sehirEkle = new javax.swing.JButton();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        siparisTablosu = new javax.swing.JTable();
+        tabloYenile5 = new javax.swing.JButton();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        siparisVer = new javax.swing.JButton();
+        gMusteriID2 = new javax.swing.JTextField();
+        gUrunAdi4 = new javax.swing.JTextField();
+        gMiktar3 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        gSehir6 = new javax.swing.JTextField();
+        jPanel5 = new javax.swing.JPanel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        uretilenUrunlerTablosu = new javax.swing.JTable();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        uretilenUrunIcerigiTablosu = new javax.swing.JTable();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTable6 = new javax.swing.JTable();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTable7 = new javax.swing.JTable();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        tabloYenile6 = new javax.swing.JButton();
+        tabloYenile7 = new javax.swing.JButton();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel34 = new javax.swing.JLabel();
+        gUrunAdi3 = new javax.swing.JTextField();
+        jLabel35 = new javax.swing.JLabel();
+        gGecerliElement2 = new javax.swing.JTextField();
+        jLabel36 = new javax.swing.JLabel();
+        gYeniElement2 = new javax.swing.JTextField();
+        varolanElementiGüncelle = new javax.swing.JButton();
+        yeniElementEkle = new javax.swing.JButton();
+        gUrunEkle = new javax.swing.JButton();
+        jLabel38 = new javax.swing.JLabel();
+        gUrunID = new javax.swing.JTextField();
+        UrunAdiGuncelle = new javax.swing.JButton();
+        jLabel37 = new javax.swing.JLabel();
+        gElementMiktari = new javax.swing.JTextField();
+        elementMiktariGuncelle = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jTabbedPane1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        gBirth.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gBirthActionPerformed(evt);
-            }
-        });
+        jScrollPane1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Hammadde Üreten Firmalar", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
 
-        jLabel4.setText("Phone:");
-
-        gPhone.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gPhoneActionPerformed(evt);
-            }
-        });
-
-        jLabel5.setText("Email:");
-
-        gEmail.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gEmailActionPerformed(evt);
-            }
-        });
-
-        jScrollPane1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Candidates", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
-
-        table.setModel(new javax.swing.table.DefaultTableModel(
+        hammaddeUretenFirmaTablo.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
             new String [] {
-                "First Name", "Last Name", "Birth", "Phone", "Email"
+                "ID", "Firma Adı", "Şehir"
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false
+                false, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(table);
+        jScrollPane1.setViewportView(hammaddeUretenFirmaTablo);
 
-        refreshButton.setText("Yenile");
-        refreshButton.addActionListener(new java.awt.event.ActionListener() {
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tedarikçi Ekle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jLabel1.setText("Firma Adı:");
+
+        gFirmaAdi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                refreshButtonActionPerformed(evt);
+                gFirmaAdiActionPerformed(evt);
             }
         });
 
-        addButon.setText("Ekle");
-        addButon.addActionListener(new java.awt.event.ActionListener() {
+        jLabel2.setText("Şehir:");
+
+        gSehir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addButonActionPerformed(evt);
+                gSehirActionPerformed(evt);
             }
         });
 
-        jLabel1.setText("First Name:");
-
-        gFirstName.addActionListener(new java.awt.event.ActionListener() {
+        firmaEkle.setText("Firma Ekle");
+        firmaEkle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gFirstNameActionPerformed(evt);
+                firmaEkleActionPerformed(evt);
             }
         });
 
-        jLabel2.setText("Last Name:");
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(firmaEkle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addGap(95, 95, 95)
+                                .addComponent(jLabel2))
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addGap(53, 53, 53)
+                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(gSehir, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(gFirmaAdi, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(0, 74, Short.MAX_VALUE)))
+                .addContainerGap())
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(84, 84, 84)
+                .addComponent(jLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(gFirmaAdi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(gSehir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(firmaEkle)
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
 
-        gLastName.addActionListener(new java.awt.event.ActionListener() {
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Hammadde Ekle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jLabel3.setText("Firma ID:");
+
+        jLabel4.setText("Element:");
+
+        jLabel5.setText("Miktar:");
+
+        jLabel15.setText("Üretim Tarihi:");
+
+        jLabel16.setText("Satış Fiyatı:");
+
+        jLabel17.setText("Raf Ömrü:");
+
+        hammaddeEkle.setText("Hammadde Ekle");
+        hammaddeEkle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gLastNameActionPerformed(evt);
+                hammaddeEkleActionPerformed(evt);
             }
         });
 
-        jLabel3.setText("Birth:");
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(gID, javax.swing.GroupLayout.DEFAULT_SIZE, 87, Short.MAX_VALUE)
+                            .addComponent(gElement)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel6Layout.createSequentialGroup()
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel5))
+                            .addComponent(jLabel15, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel6Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel17)
+                                    .addComponent(jLabel16))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(gUretimTarihi)
+                            .addComponent(gMiktar)
+                            .addComponent(gSatisFiyati)
+                            .addComponent(gRafOmru, javax.swing.GroupLayout.DEFAULT_SIZE, 87, Short.MAX_VALUE)))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(hammaddeEkle, javax.swing.GroupLayout.DEFAULT_SIZE, 145, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(gID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(gElement, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gMiktar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gUretimTarihi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gSatisFiyati, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel16))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gRafOmru, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel17))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(hammaddeEkle))
+        );
 
-        jLabel10.setText("ID:");
-
-        jLabel11.setText("First Name:");
-
-        jLabel12.setText("Last Name:");
-
-        jLabel13.setText("Phone:");
-
-
-
-        jLabel14.setText("Email:");
-
-
-
-        updateFirstName.setText("Ad Güncelle");
-        updateFirstName.addActionListener(new java.awt.event.ActionListener() {
+        tabloYenille.setText("Tabloyu Yenile");
+        tabloYenille.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                updateFirstNameActionPerformed(evt);
+                tabloYenilleActionPerformed(evt);
             }
         });
 
-        updateLastName.setText("Soyad Güncelle");
-        updateLastName.addActionListener(new java.awt.event.ActionListener() {
+        tabloYenile2.setText("Tablo Yenile");
+        tabloYenile2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                updateLastNameActionPerformed(evt);
+                tabloYenile2ActionPerformed(evt);
             }
         });
 
-        updatePhone.setText("Tel Güncelle");
+        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Bilgi Güncelleme", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
 
+        jLabel22.setText("Firma ID:");
 
-        updateEmail.setText("Eposta Güncelle");
+        jLabel23.setText("Firma Adı:");
 
+        jLabel24.setText("Şehir:");
+
+        jLabel25.setText("Yeni Element:");
+
+        firmaAdiGuncelle.setText("Firma Adı Güncelle");
+        firmaAdiGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                firmaAdiGuncelleActionPerformed(evt);
+            }
+        });
+
+        sehirAdiGuncelle.setText("Şehir Güncelle");
+        sehirAdiGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sehirAdiGuncelleActionPerformed(evt);
+            }
+        });
+
+        elementGuncelle.setText("Element Güncelle");
+        elementGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                elementGuncelleActionPerformed(evt);
+            }
+        });
+
+        jLabel26.setText("Miktar:");
+
+        jLabel27.setText("Üretim Tarihi:");
+
+        jLabel28.setText("Satış Fiyatı:");
+
+        jLabel29.setText("Raf Ömrü:");
+
+        miktarGuncelle.setText("Miktar Güncelle");
+        miktarGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                miktarGuncelleActionPerformed(evt);
+            }
+        });
+
+        uretimTarihiGuncelle.setText("Üretim Tarihi Güncelle");
+        uretimTarihiGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                uretimTarihiGuncelleActionPerformed(evt);
+            }
+        });
+
+        satisFiyatiGuncelle.setText("Satış Fiyatı Güncelle");
+        satisFiyatiGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                satisFiyatiGuncelleActionPerformed(evt);
+            }
+        });
+
+        rafOmruGuncelle.setText("Raf Ömrü Güncelle");
+        rafOmruGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rafOmruGuncelleActionPerformed(evt);
+            }
+        });
+
+        jLabel33.setText("Geçerli Olan Element:");
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addGap(16, 16, 16)
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel24)
+                                    .addComponent(jLabel23)
+                                    .addComponent(jLabel22))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(gSehir2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(gID2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(gFirmaAdi2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(jLabel25)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(gYeniElement, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(firmaAdiGuncelle, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(elementGuncelle, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(sehirAdiGuncelle, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel29)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(gRafOmru2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(jLabel26)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(gMiktar2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(jLabel28)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(gSatisFiyati2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(jLabel33)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(gGecerliElement, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(satisFiyatiGuncelle, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(miktarGuncelle, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                        .addComponent(jLabel27)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(gUretimTarihi2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(uretimTarihiGuncelle))
+                    .addComponent(rafOmruGuncelle))
+                .addContainerGap())
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(23, 23, 23)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel33)
+                            .addComponent(jLabel22)
+                            .addComponent(gID2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(gGecerliElement, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel26)
+                                    .addComponent(gMiktar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(miktarGuncelle))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel27)
+                                    .addComponent(gUretimTarihi2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(uretimTarihiGuncelle)
+                                    .addComponent(jLabel24)
+                                    .addComponent(gSehir2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(sehirAdiGuncelle))
+                                .addGap(8, 8, 8))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel23)
+                                    .addComponent(gFirmaAdi2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(firmaAdiGuncelle))
+                                .addGap(37, 37, 37)))
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(gSatisFiyati2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel28)
+                            .addComponent(satisFiyatiGuncelle)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel25)
+                            .addComponent(gYeniElement, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(elementGuncelle))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel29)
+                    .addComponent(gRafOmru2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(rafOmruGuncelle))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jScrollPane4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Firma - Hammadde Tablosu", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        firmaHammaddeTablosu.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Firma ID", "Element", "Miktar", "Üretim Tarihi", "Satış Fiyatı", "Raf Ömrü"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane4.setViewportView(firmaHammaddeTablosu);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(35, 35, 35)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(gFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(gLastName, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(gBirth, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(gPhone, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(gEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(addButon)
-                                .addGap(152, 152, 152)
-                                .addComponent(refreshButton)
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(12, 12, 12)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel10)
-                        .addGap(2, 2, 2)
-                        .addComponent(uID, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(tabloYenille)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(updateFirstName, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
-                            .addComponent(uFirstName))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel12)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(updateLastName, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(uLastName))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(updatePhone, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(uPhone, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(updateEmail, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(uEmail))
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 630, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(tabloYenile2)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 490, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
         );
-
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {addButon, refreshButton});
-
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(24, 24, 24)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(19, 19, 19)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 312, Short.MAX_VALUE)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addGap(8, 8, 8)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3)
-                    .addComponent(gFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(gLastName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5)
-                    .addComponent(gEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(gBirth, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(gPhone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(35, 35, 35)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(addButon)
-                    .addComponent(refreshButton))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(uID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel11)
-                    .addComponent(uFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel12)
-                    .addComponent(uLastName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel13)
-                    .addComponent(uPhone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel14)
-                    .addComponent(uEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(31, 31, 31)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(updateFirstName)
-                    .addComponent(updateLastName)
-                    .addComponent(updatePhone)
-                    .addComponent(updateEmail))
-                .addGap(33, 33, 33))
+                    .addComponent(tabloYenille)
+                    .addComponent(tabloYenile2))
+                .addContainerGap(55, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Üretici Firma - Tedarikçi Firma", jPanel1);
+        jTabbedPane1.addTab("Hammadde Üreten Firma", jPanel1);
 
         jScrollPane2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Müşteri Tablosu", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        musteriTablosu.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
             new String [] {
-                "ID", "Müşteri Adı", "Adres", "T.Edilen Ürün Bilgisi"
+                "ID", "Müşteri Adı"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane2.setViewportView(musteriTablosu);
+
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Müşteri Ekle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jLabel6.setText("Müşteri Adı:");
+
+        gMusteriAdi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gMusteriAdiActionPerformed(evt);
+            }
+        });
+
+        musteriEkle.setText("Müşteri Ekle");
+        musteriEkle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                musteriEkleActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(gMusteriAdi, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(43, 43, 43)
+                        .addComponent(musteriEkle, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(47, 47, 47)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(gMusteriAdi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(musteriEkle)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Müşteri Bilgisi Güncelle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jLabel10.setText("Müşteri ID:");
+
+        jLabel11.setText("Müşteri Adı:");
+
+        jLabel12.setText("Şehir:");
+
+        jLabel14.setText("Ürün Adı:");
+
+        jLabel18.setText("Ürün Miktarı:");
+
+        musteriAdiGuncelle.setText("Müşteri Adı Güncelle");
+        musteriAdiGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                musteriAdiGuncelleActionPerformed(evt);
+            }
+        });
+
+        sehirGuncelle.setText("Şehir Güncelle");
+        sehirGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sehirGuncelleActionPerformed(evt);
+            }
+        });
+
+        urunAdiGuncelle.setText("Ürün Adı Güncelle");
+        urunAdiGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                urunAdiGuncelleActionPerformed(evt);
+            }
+        });
+
+        urunMiktariGuncelle.setText("Ürün Miktarı Güncelle");
+        urunMiktariGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                urunMiktariGuncelleActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(musteriAdiGuncelle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(sehirGuncelle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(urunMiktariGuncelle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(urunAdiGuncelle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 22, Short.MAX_VALUE))
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel11)
+                            .addComponent(jLabel10))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(gMusteriAdi2, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
+                            .addComponent(gMusteriID))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel14)
+                            .addComponent(jLabel12))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(gUrunAdi2, javax.swing.GroupLayout.DEFAULT_SIZE, 70, Short.MAX_VALUE)
+                            .addComponent(gSehir3)))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(80, 80, 80)
+                        .addComponent(jLabel18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(gUrunMiktari2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel10)
+                    .addComponent(gMusteriID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel12)
+                    .addComponent(gSehir3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel11)
+                    .addComponent(gMusteriAdi2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel14)
+                    .addComponent(gUrunAdi2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(gUrunMiktari2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(sehirGuncelle)
+                    .addComponent(urunAdiGuncelle))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(musteriAdiGuncelle)
+                    .addComponent(urunMiktariGuncelle)))
+        );
+
+        tabloYenile4.setText("Tablo Yenile");
+        tabloYenile4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tabloYenile4ActionPerformed(evt);
+            }
+        });
+
+        tabloYenile3.setText("Tablo Yenile");
+        tabloYenile3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tabloYenile3ActionPerformed(evt);
+            }
+        });
+
+        jScrollPane3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Şehir - Mesafe Tablosu", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        sehirMesafeTablosu.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Şehir", "Mesafe", "Bölge"
             }
         ) {
             boolean[] canEdit = new boolean [] {
@@ -308,98 +816,256 @@ public class Pencere2 extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane2.setViewportView(jTable1);
+        jScrollPane3.setViewportView(sehirMesafeTablosu);
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Müşteri Ekle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Şehir Bilgileri Güncelle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
 
-        jLabel6.setText("Müşteri Adı:");
+        jLabel9.setText("Şehir ID:");
 
-        getCustomerName.addActionListener(new java.awt.event.ActionListener() {
+        gSehirID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                getCustomerNameActionPerformed(evt);
+                gSehirIDActionPerformed(evt);
             }
         });
 
-        jLabel7.setText("Adres:");
+        jLabel19.setText("Şehir Adı:");
 
-        getAddress.addActionListener(new java.awt.event.ActionListener() {
+        jLabel20.setText("Mesafe:");
+
+        jLabel21.setText("Bölge:");
+
+        sehirAdiGuncelle2.setText("Şehir Adı Güncelle");
+        sehirAdiGuncelle2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                getAddressActionPerformed(evt);
+                sehirAdiGuncelle2ActionPerformed(evt);
             }
         });
 
-        getProduct.addActionListener(new java.awt.event.ActionListener() {
+        sehirMesafeGuncelle.setText("Mesafe Güncelle");
+        sehirMesafeGuncelle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                getProductActionPerformed(evt);
+                sehirMesafeGuncelleActionPerformed(evt);
             }
         });
 
-        jLabel8.setText("Ürün Bilgisi:");
-
-        addNewCustomer.setText("Müşteri Ekle");
-        addNewCustomer.addActionListener(new java.awt.event.ActionListener() {
+        bolgeGuncelle.setText("Bölge Güncelle");
+        bolgeGuncelle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addNewCustomerActionPerformed(evt);
+                bolgeGuncelleActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(117, 117, 117)
-                .addComponent(jLabel6)
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel19, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel20, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel21, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(getCustomerName, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(gBolge2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(bolgeGuncelle, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(gMesafe, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(sehirMesafeGuncelle, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(gSehir4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(sehirAdiGuncelle2))
+                    .addComponent(gSehirID, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(23, 23, 23))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9)
+                    .addComponent(gSehirID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(addNewCustomer)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(getAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(getProduct, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(169, Short.MAX_VALUE))
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(getCustomerName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel7)
-                    .addComponent(getAddress, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8)
-                    .addComponent(getProduct, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(26, 26, 26)
-                .addComponent(addNewCustomer)
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
-
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Müşteri Bilgisi Güncelle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
-
-        jLabel9.setText("Müşteri ID:");
-
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel9)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel19)
+                    .addComponent(gSehir4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(sehirAdiGuncelle2))
+                .addGap(12, 12, 12)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel20)
+                    .addComponent(gMesafe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(sehirMesafeGuncelle))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel21)
+                    .addComponent(gBolge2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bolgeGuncelle))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+
+        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Şehir Ekle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jLabel30.setText("Şehir Adı:");
+
+        gSehir5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gSehir5ActionPerformed(evt);
+            }
+        });
+
+        jLabel31.setText("Mesafe:");
+
+        jLabel32.setText("Bölge:");
+
+        sehirEkle.setText("Şehir Ekle");
+        sehirEkle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sehirEkleActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap(30, Short.MAX_VALUE)
+                .addComponent(sehirEkle, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel30, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel31, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel32, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(gMesafe2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(gBolge, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(gSehir5, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(23, 23, 23))
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel9)
-                .addContainerGap(115, Short.MAX_VALUE))
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel30)
+                    .addComponent(gSehir5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gMesafe2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel31))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel32)
+                    .addComponent(gBolge, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(sehirEkle)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jScrollPane9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Sipariş Tablosu", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        siparisTablosu.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Sipariş ID", "Müşteri ID", "Şehir", "Ürün Adı", "Miktar"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane9.setViewportView(siparisTablosu);
+
+        tabloYenile5.setText("Tablo Yenile");
+        tabloYenile5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tabloYenile5ActionPerformed(evt);
+            }
+        });
+
+        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Sipariş Ekle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jLabel40.setText("Müşteri ID:");
+
+        jLabel41.setText("Ürün Adı:");
+
+        jLabel42.setText("Miktar:");
+
+        siparisVer.setText("Sipariş Ver");
+        siparisVer.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                siparisVerActionPerformed(evt);
+            }
+        });
+
+        gMiktar3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gMiktar3ActionPerformed(evt);
+            }
+        });
+
+        jLabel7.setText("Şehir:");
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel41)
+                            .addComponent(jLabel40)
+                            .addComponent(jLabel42))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(gUrunAdi4)
+                            .addComponent(gMiktar3)
+                            .addComponent(gMusteriID2)
+                            .addComponent(gSehir6, javax.swing.GroupLayout.DEFAULT_SIZE, 59, Short.MAX_VALUE)))
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addComponent(siparisVer, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel40)
+                    .addComponent(gMusteriID2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel41)
+                    .addComponent(gUrunAdi4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel42)
+                    .addComponent(gMiktar3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(gSehir6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(26, 26, 26)
+                .addComponent(siparisVer)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -409,24 +1075,331 @@ public class Pencere2 extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane2)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(22, Short.MAX_VALUE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(tabloYenile3)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(tabloYenile5)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tabloYenile4))
+                        .addGap(19, 19, 19)))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(94, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(14, 14, 14)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 396, Short.MAX_VALUE)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tabloYenile5)
+                    .addComponent(tabloYenile3)
+                    .addComponent(tabloYenile4))
+                .addGap(51, 51, 51))
         );
 
-        jTabbedPane1.addTab("Üretici Firma - Müşteri", jPanel2);
+        jTabbedPane1.addTab("Müşteri", jPanel2);
+
+        jScrollPane5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Üretilen Ürünler", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        uretilenUrunlerTablosu.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Ürün Adı"
+            }
+        ));
+        jScrollPane5.setViewportView(uretilenUrunlerTablosu);
+
+        jScrollPane6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Ürün İçeriği", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        uretilenUrunIcerigiTablosu.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Ürün ID", "Element", "Adet"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane6.setViewportView(uretilenUrunIcerigiTablosu);
+
+        jScrollPane7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Üretilen Ürün Bilgileri", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jTable6.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Ürün ID", "İşçilik Maliyeti", "İşçilik + Maliyet", "Satış Fiyatı", "Raf Ömrü"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane7.setViewportView(jTable6);
+
+        jScrollPane8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Satın Alınan Hammadde Bilgileri", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jTable7.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Tedarikçi Firma ID", "Element", "Miktar", "Maliyet", "Raf Ömrü"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane8.setViewportView(jTable7);
+
+        jButton18.setText("Tablo Yenile");
+
+        jButton19.setText("Tablo Yenile");
+
+        tabloYenile6.setText("Tablo Yenile");
+        tabloYenile6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tabloYenile6ActionPerformed(evt);
+            }
+        });
+
+        tabloYenile7.setText("Tablo Yenile");
+        tabloYenile7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tabloYenile7ActionPerformed(evt);
+            }
+        });
+
+        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Ürün Ekle ve Güncelle", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
+
+        jLabel34.setText("Ürün Adı:");
+
+        jLabel35.setText("Geçerli Element:");
+
+        jLabel36.setText("Yeni Element:");
+
+        varolanElementiGüncelle.setText("Varolan Elementi Güncelle");
+        varolanElementiGüncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                varolanElementiGüncelleActionPerformed(evt);
+            }
+        });
+
+        yeniElementEkle.setText("Yeni Element Ekle");
+        yeniElementEkle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                yeniElementEkleActionPerformed(evt);
+            }
+        });
+
+        gUrunEkle.setText("Ürün Ekle");
+        gUrunEkle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gUrunEkleActionPerformed(evt);
+            }
+        });
+
+        jLabel38.setText("Ürün ID:");
+
+        UrunAdiGuncelle.setText("Ürün Adı Güncelle");
+        UrunAdiGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                UrunAdiGuncelleActionPerformed(evt);
+            }
+        });
+
+        jLabel37.setText("Element Miktarı:");
+
+        elementMiktariGuncelle.setText("Element Miktarı Güncelle");
+        elementMiktariGuncelle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                elementMiktariGuncelleActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel11Layout.createSequentialGroup()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(yeniElementEkle, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel11Layout.createSequentialGroup()
+                            .addGap(22, 22, 22)
+                            .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jLabel38)
+                                .addComponent(jLabel34)
+                                .addComponent(jLabel36))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(gUrunAdi3, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
+                                .addComponent(gUrunID)
+                                .addComponent(gYeniElement2, javax.swing.GroupLayout.Alignment.TRAILING)))
+                        .addGroup(jPanel11Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(jLabel35)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(gGecerliElement2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addComponent(gUrunEkle)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(UrunAdiGuncelle))
+                    .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(elementMiktariGuncelle, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(varolanElementiGüncelle, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel11Layout.createSequentialGroup()
+                            .addComponent(jLabel37)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(gElementMiktari, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel34)
+                    .addComponent(gUrunAdi3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(gUrunEkle)
+                    .addComponent(UrunAdiGuncelle))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel38)
+                    .addComponent(gUrunID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gGecerliElement2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel35)
+                    .addComponent(varolanElementiGüncelle))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel36)
+                    .addComponent(gYeniElement2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel37)
+                    .addComponent(gElementMiktari, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(yeniElementEkle)
+                    .addComponent(elementMiktariGuncelle))
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 79, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 176, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(tabloYenile6)
+                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tabloYenile7))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(180, 180, 180)
+                        .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jButton19)
+                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 496, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 496, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton18))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(tabloYenile7, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(tabloYenile6))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 268, Short.MAX_VALUE)
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton18)
+                    .addComponent(jButton19))
+                .addGap(82, 82, 82))
+        );
+
+        jTabbedPane1.addTab("Bileşik Üreten Firma", jPanel5);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -434,84 +1407,31 @@ public class Pencere2 extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane1)
-                .addContainerGap())
+                .addComponent(jTabbedPane1))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 550, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 658, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void gPhoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gPhoneActionPerformed
+    private void gSehirIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gSehirIDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gPhoneActionPerformed
+    }//GEN-LAST:event_gSehirIDActionPerformed
 
-    private void gBirthActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gBirthActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gBirthActionPerformed
-
-    private void getCustomerNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getCustomerNameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_getCustomerNameActionPerformed
-
-    private void addButonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButonActionPerformed
-        String fname = gFirstName.getText();
-        String lname = gLastName.getText();
-        String birth = gBirth.getText();
-        String phone = gPhone.getText();
-        String email = gEmail.getText();
-        Calendar calendar = Calendar.getInstance();
-        java.sql.Date startDate = new java.sql.Date(calendar.getTime().getTime());
-        try{
-          //Connection variables
-          Connection conn = MySQLJDBCUtil.getConnection();
-            // for insert a new candidate
-            ResultSet rs = null;
-            int candidateId = 0;
-            String sql = "INSERT INTO candidates(first_name, last_name, dob, phone, email)" + " values (?, ?, ?, ?, ?)";
-          //Create a Statement object.
-            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-            pstmt.setString(1, fname);
-            pstmt.setString(2, lname);
-            pstmt.setDate(3, startDate);
-            pstmt.setString(4, phone);
-            pstmt.setString(5, email);
-            int rowAffected = pstmt.executeUpdate();
-
-
-            if(rowAffected == 1)
-            {
-                System.out.println("BLEAGAALDFKJŞADFADF");
-                rs = pstmt.getGeneratedKeys();
-                if(rs.next())
-                    candidateId = rs.getInt(1);
-
-            }
-            pstmt.close();
-
-          if(conn != null){
-              conn.close();
-          }
-      } catch (SQLException e) {
-          e.printStackTrace();
-      }
-    }//GEN-LAST:event_addButonActionPerformed
-
-    private void refreshButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshButtonActionPerformed
-        DefaultTableModel tableModel = (DefaultTableModel) table.getModel();
+    private void tabloYenile4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tabloYenile4ActionPerformed
+         DefaultTableModel tableModel = (DefaultTableModel) sehirMesafeTablosu.getModel();
       try{
           //Clear jtable
           tableModel.setRowCount(0);
 
           //Connection variables
           Connection conn = MySQLJDBCUtil.getConnection();
-          String sql = "SELECT id, first_name, last_name, email, dob, phone, email " + "FROM candidates";
+          String sql = "SELECT sehir_id, sehir_adi, mesafe, bolge " + "FROM sehirtablosu";
 
           //Create a Statement object.
           Statement stmt  = conn.createStatement();
@@ -525,14 +1445,15 @@ public class Pencere2 extends javax.swing.JFrame {
                       rs.getString("last_name")  + "\t" +
                       rs.getString("email"));
               i++;*/
-              String id = rs.getString("id");
-              String name = rs.getString("first_name");
-              String lname = rs.getString("last_name");
-              String birth = rs.getString("dob");
-              String phone = rs.getString("phone");
-              String email = rs.getString("email");
+              String id = rs.getString("sehir_id");
+              String adi = rs.getString("sehir_adi");
+              String mesafe = rs.getString("mesafe");
+              String bolge = rs.getString("bolge");
+              //int sid = Integer.parseInt(sehir_id);
+              //String sehir_ismi = sehirIsmiDondur(sid);
+              
 
-              tableModel.addRow(new Object[]{id, name, lname, birth, phone, email});
+              tableModel.addRow(new Object[]{id, adi, mesafe, bolge});
           }
           rs.close();
           stmt.close();
@@ -544,90 +1465,1058 @@ public class Pencere2 extends javax.swing.JFrame {
       } catch (SQLException e) {
           e.printStackTrace();
       }
+    }//GEN-LAST:event_tabloYenile4ActionPerformed
 
-    }//GEN-LAST:event_refreshButtonActionPerformed
-
-    private void gFirstNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gFirstNameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gFirstNameActionPerformed
-
-    private void gLastNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gLastNameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gLastNameActionPerformed
-
-    private void gEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gEmailActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gEmailActionPerformed
-
-    private void getAddressActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getAddressActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_getAddressActionPerformed
-
-    private void getProductActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getProductActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_getProductActionPerformed
-
-    private void addNewCustomerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addNewCustomerActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addNewCustomerActionPerformed
-
-    private void updateFirstNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateFirstNameActionPerformed
-        String fname = uFirstName.getText();
-        String strid = uID.getText();
-        int id = Integer.parseInt(strid);
-        String sqlUpdate = "UPDATE candidates "
-                + "SET first_name = ? "
-                + "WHERE id = ?";
+    private void musteriEkleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_musteriEkleActionPerformed
+        String musteriAdi = gMusteriAdi.getText();
         
         try{
+            //Connection variables
             Connection conn = MySQLJDBCUtil.getConnection();
-            PreparedStatement pstmt = conn.prepareStatement(sqlUpdate);
-
-            // prepare data for update         
-            pstmt.setString(1, fname);
-            pstmt.setInt(2, id);
+            // for insert a new candidate
+            ResultSet rs = null;
+            int firmaId = 0;
+            String sql = "INSERT INTO musteribilgitablosu(musteri_adi)" + " values (?)";
+            //Create a Statement object.
+            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            pstmt.setString(1, musteriAdi);
 
             int rowAffected = pstmt.executeUpdate();
-            System.out.println(String.format("Row affected %d", rowAffected));
-        
+
+            if(rowAffected == 1)
+            {
+
+                rs = pstmt.getGeneratedKeys();
+                if(rs.next())
+                firmaId = rs.getInt(1);
+                System.out.println("Müşteri eklendi.");
+            }
             pstmt.close();
-            if(conn != null){
-            conn.close();
-            }            
-        }catch (SQLException e) {
-          e.printStackTrace();
-      }
-    }//GEN-LAST:event_updateFirstNameActionPerformed
-
-    private void updateLastNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateLastNameActionPerformed
-         String lname = uLastName.getText();
-        String strid = uID.getText();
-        int id = Integer.parseInt(strid);
-        String sqlUpdate = "UPDATE candidates "
-                + "SET last_name = ? "
-                + "WHERE id = ?";
-        System.out.println("BLEAFGH");
-        try{
-
-            Connection conn = MySQLJDBCUtil.getConnection();
-            PreparedStatement pstmt = conn.prepareStatement(sqlUpdate);
-
-            // prepare data for update
-            pstmt.setString(1, lname);
-            pstmt.setInt(2, id);
-
-            int rowAffected = pstmt.executeUpdate();
-            System.out.println(String.format("Last name update %d", rowAffected));
-
-            pstmt.close();
+            if(rs != null){
+                rs.close();
+            }
             if(conn != null){
                 conn.close();
             }
-        }catch (SQLException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
-    }//GEN-LAST:event_updateLastNameActionPerformed
+    }//GEN-LAST:event_musteriEkleActionPerformed
 
+    private void gMusteriAdiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gMusteriAdiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gMusteriAdiActionPerformed
+
+    private void firmaEkleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_firmaEkleActionPerformed
+        String firmaAdi = gFirmaAdi.getText();
+        String sehir = gSehir.getText();
+        int id = sehirIdDondur(sehir);
+        //Calendar calendar = Calendar.getInstance();
+        //java.sql.Date startDate = new java.sql.Date(calendar.getTime().getTime());
+        try{
+            //Connection variables
+            Connection conn = MySQLJDBCUtil.getConnection();
+            // for insert a new candidate
+            ResultSet rs = null;
+            int firmaId = 0;
+            String sql = "INSERT INTO tedarikcifirmabilgisi(firma_adi, sehir_id)" + " values (?, ?)";
+            //Create a Statement object.
+            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            pstmt.setString(1, firmaAdi);
+            pstmt.setInt(2, id);
+            
+            int rowAffected = pstmt.executeUpdate();
+
+            if(rowAffected == 1)
+            {
+
+                rs = pstmt.getGeneratedKeys();
+                if(rs.next())
+                firmaId = rs.getInt(1);
+                System.out.println("Tedarikci adi ve sehri eklendi.");
+            }
+            pstmt.close();
+            if(rs != null){
+                rs.close();
+            }
+            if(conn != null){
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }//GEN-LAST:event_firmaEkleActionPerformed
+
+    private void gSehirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gSehirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gSehirActionPerformed
+
+    private void gFirmaAdiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gFirmaAdiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gFirmaAdiActionPerformed
+
+    private void tabloYenilleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tabloYenilleActionPerformed
+          DefaultTableModel tableModel = (DefaultTableModel) hammaddeUretenFirmaTablo.getModel();
+      try{
+          //Clear jtable
+          tableModel.setRowCount(0);
+
+          //Connection variables
+          Connection conn = MySQLJDBCUtil.getConnection();
+          String sql = "SELECT firma_id, firma_adi, sehir_id " + "FROM tedarikcifirmabilgisi";
+
+          //Create a Statement object.
+          Statement stmt  = conn.createStatement();
+          //Get query results
+          ResultSet rs    = stmt.executeQuery(sql);
+          //Print query results
+          while (rs.next()) {
+              /*
+              System.out.print(i + ".");
+              System.out.println(rs.getString("first_name") + "\t" +
+                      rs.getString("last_name")  + "\t" +
+                      rs.getString("email"));
+              i++;*/
+              String id = rs.getString("firma_id");
+              String name = rs.getString("firma_adi");
+              String sehir_id = rs.getString("sehir_id");
+              int sid = Integer.parseInt(sehir_id);
+              String sehir_ismi = sehirIsmiDondur(sid);
+              
+
+              tableModel.addRow(new Object[]{id, name, sehir_ismi});
+          }
+          rs.close();
+          stmt.close();
+
+
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_tabloYenilleActionPerformed
+
+    private void hammaddeEkleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hammaddeEkleActionPerformed
+            String firma_id = gID.getText();            
+            String element = gElement.getText();
+            String miktar = gMiktar.getText();
+            String uretimTarihi = gUretimTarihi.getText();
+            String satisFiyati = gSatisFiyati.getText();
+            String rafOmru = gRafOmru.getText();
+            int id = Integer.parseInt(firma_id);
+            int satisFiyati2 = Integer.parseInt(satisFiyati);
+            int rafOmru2 = Integer.parseInt(rafOmru);
+            int miktar2 = Integer.parseInt(miktar);
+            try{
+            //Connection variables
+            Connection conn = MySQLJDBCUtil.getConnection();
+            // for insert a new candidate
+            ResultSet rs = null;
+            int firmaId = 0;
+            String sql = "INSERT INTO tedarikcifirmastokbilgisi(firma_id, element, miktar, uretim_tarihi, satis_fiyati, raf_omru)" + " values (?, ?, ?, ?, ?, ?)";
+            //Create a Statement object.
+            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            pstmt.setInt(1, id);
+            pstmt.setString(2, element);
+            pstmt.setInt(3, miktar2);
+            pstmt.setString(4, uretimTarihi);
+            pstmt.setInt(5, satisFiyati2);
+            pstmt.setInt(6, rafOmru2);
+            
+           
+            int rowAffected = pstmt.executeUpdate();
+
+            if(rowAffected == 1)
+            {
+
+                rs = pstmt.getGeneratedKeys();
+                if(rs.next())
+                firmaId = rs.getInt(1);
+                System.out.println("İstenilen tedarikçiye belirtilen element eklendi.");
+            }
+            pstmt.close();
+            if(rs != null){
+                rs.close();
+            }
+            if(conn != null){
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+            
+    }//GEN-LAST:event_hammaddeEkleActionPerformed
+
+    private void tabloYenile2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tabloYenile2ActionPerformed
+           DefaultTableModel tableModel = (DefaultTableModel) firmaHammaddeTablosu.getModel();
+      try{
+          //Clear jtable
+          tableModel.setRowCount(0);
+
+          //Connection variables
+          Connection conn = MySQLJDBCUtil.getConnection();
+          String sql = "SELECT firma_id, element, miktar, uretim_tarihi, satis_fiyati, raf_omru " + "FROM tedarikcifirmastokbilgisi " + "ORDER BY firma_id ASC";
+
+          //Create a Statement object.
+          Statement stmt  = conn.createStatement();
+          //Get query results
+          ResultSet rs    = stmt.executeQuery(sql);
+          //Print query results
+          while (rs.next()) {
+              /*
+              System.out.print(i + ".");
+              System.out.println(rs.getString("first_name") + "\t" +
+                      rs.getString("last_name")  + "\t" +
+                      rs.getString("email"));
+              i++;*/
+              String id = rs.getString("firma_id");
+              String element = rs.getString("element");
+              String stok = rs.getString("miktar");
+              String uretimTarihi = rs.getString("uretim_tarihi");
+              String satisfiyati = rs.getString("satis_fiyati");
+              String rafgunu = rs.getString("raf_omru");
+              
+
+              tableModel.addRow(new Object[]{id, element, stok, uretimTarihi, satisfiyati, rafgunu});
+          }
+          rs.close();
+          stmt.close();
+
+
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_tabloYenile2ActionPerformed
+
+    private void bolgeGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bolgeGuncelleActionPerformed
+       String sql = "Update sehirtablosu " + "Set bolge = ? " + "WHERE sehir_id = ?";
+       String sehir_bolge = gBolge2.getText();
+       String sehir_id = gSehirID.getText();
+       int id = Integer.parseInt(sehir_id);
+       int bolge = Integer.parseInt(sehir_bolge);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, bolge);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Şehir bolgesi güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_bolgeGuncelleActionPerformed
+
+    private void sehirEkleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sehirEkleActionPerformed
+        String sehirAdi = gSehir5.getText();
+        String mesafe = gMesafe2.getText();
+        String bolge = gBolge.getText();
+        int mesafe2 = Integer.parseInt(mesafe);
+        int bolge2 = Integer.parseInt(bolge);
+        
+        try{
+            //Connection variables
+            Connection conn = MySQLJDBCUtil.getConnection();
+            
+             ResultSet rs = null;
+            int sehirID = 0;
+            String sql = "INSERT INTO sehirtablosu(sehir_adi, mesafe, bolge)" + " values (?, ?, ?)";
+            //Create a Statement object.
+            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            pstmt.setString(1, sehirAdi);
+            pstmt.setInt(2, mesafe2);
+            pstmt.setInt(3, bolge2);
+            
+            int rowAffected = pstmt.executeUpdate();
+
+            if(rowAffected == 1)
+            {
+
+                rs = pstmt.getGeneratedKeys();
+                if(rs.next())
+                sehirID = rs.getInt(1);
+                System.out.println("Şehir eklendi eklendi. ID:" + sehirID);
+            }
+            pstmt.close();
+            if(rs != null){
+                rs.close();
+            }
+            if(conn != null){
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }//GEN-LAST:event_sehirEkleActionPerformed
+
+    private void firmaAdiGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_firmaAdiGuncelleActionPerformed
+       String sql = "Update tedarikcifirmabilgisi " + "Set firma_adi = ? " + "WHERE firma_id = ?";
+       String firma_adi = gFirmaAdi2.getText();
+       String firma_id = gID2.getText();
+       int id = Integer.parseInt(firma_id);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, firma_adi);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Firma Adı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_firmaAdiGuncelleActionPerformed
+
+    private void sehirAdiGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sehirAdiGuncelleActionPerformed
+       String sql = "Update tedarikcifirmabilgisi " + "Set sehir_id = ? " + "WHERE firma_id = ?";
+       String sehir_adi = gSehir2.getText();
+       String firma_id = gID2.getText();
+       int id = sehirIdDondur(sehir_adi);
+       int id2 = Integer.parseInt(firma_id);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, id);
+          pstmt.setInt(2, id2);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("İstenilen firmanın şehir bilgisi güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_sehirAdiGuncelleActionPerformed
+
+    private void elementGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_elementGuncelleActionPerformed
+       String sql = "Update tedarikcifirmastokbilgisi " + "Set element = ? " + "WHERE firma_id = ? AND element = ?";
+       String eskiElement = gGecerliElement.getText();
+       String yeniElement = gYeniElement.getText();
+       String firma_id = gID2.getText();
+       int id2 = Integer.parseInt(firma_id);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, yeniElement);
+          pstmt.setInt(2, id2);
+          pstmt.setString(3, eskiElement);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Belirtilen firmanın elementlerinden biri güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_elementGuncelleActionPerformed
+
+    private void miktarGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_miktarGuncelleActionPerformed
+       String sql = "Update tedarikcifirmastokbilgisi " + "Set miktar = ? " + "WHERE firma_id = ? AND element = ?";
+       String gecerliElement = gGecerliElement.getText();
+       String miktar = gMiktar2.getText();
+       String firma_id = gID2.getText();
+       int miktar2 = Integer.parseInt(miktar);
+       int id2 = Integer.parseInt(firma_id);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, miktar2);
+          pstmt.setInt(2, id2);
+          pstmt.setString(3, gecerliElement);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Belirtilen firmanın elementlerinden birinin miktarı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_miktarGuncelleActionPerformed
+
+    private void uretimTarihiGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_uretimTarihiGuncelleActionPerformed
+       String sql = "Update tedarikcifirmastokbilgisi " + "Set uretimtarihi = ? " + "WHERE firma_id = ? AND element = ?";
+       String uretimTarihi = gUretimTarihi2.getText();
+       String gecerliElement = gGecerliElement.getText();
+       String firma_id = gID2.getText();
+       int id2 = Integer.parseInt(firma_id);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, uretimTarihi);
+          pstmt.setInt(2, id2);
+          pstmt.setString(3, gecerliElement);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Belirtilen firmanın elementlerinden birinin üretim tarihi güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_uretimTarihiGuncelleActionPerformed
+
+    private void satisFiyatiGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_satisFiyatiGuncelleActionPerformed
+       String sql = "Update tedarikcifirmastokbilgisi " + "Set satis_fiyati = ? " + "WHERE firma_id = ? AND element = ?";
+       String satisFiyati = gSatisFiyati2.getText();
+       String gecerliElement = gGecerliElement.getText();
+       String firma_id = gID2.getText();
+       int id2 = Integer.parseInt(firma_id);
+       int satisFiyati2 = Integer.parseInt(satisFiyati);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, satisFiyati2);
+          pstmt.setInt(2, id2);
+          pstmt.setString(3, gecerliElement);
+          int rowAffected = pstmt.executeUpdate();
+          System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Belirtilen firmanın elementlerinden birinin satış fiyatı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_satisFiyatiGuncelleActionPerformed
+
+    private void rafOmruGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rafOmruGuncelleActionPerformed
+        String sql = "Update tedarikcifirmastokbilgisi " + "Set raf_omru = ? " + "WHERE firma_id = ? AND element = ?";
+       String rafOmru = gRafOmru2.getText();
+       String gecerliElement = gGecerliElement.getText();
+       String firma_id = gID2.getText();
+       int id2 = Integer.parseInt(firma_id);
+       int rafOmru2 = Integer.parseInt(rafOmru);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, rafOmru2);
+          pstmt.setInt(2, id2);
+          pstmt.setString(3, gecerliElement);
+          int rowAffected = pstmt.executeUpdate();
+          System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Belirtilen firmanın elementlerinden birinin raf ömrü güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_rafOmruGuncelleActionPerformed
+
+    private void sehirGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sehirGuncelleActionPerformed
+       String sql = "Update siparistablosu " + "Set sehir_adi = ? " + "WHERE musteri_id = ?";
+       String musteri_id = gMusteriID.getText();
+       String sehir_adi = gSehir3.getText();
+       int id = sehirIdDondur(sehir_adi);
+       int id2 = Integer.parseInt(musteri_id);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, id);
+          pstmt.setInt(2, id2);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Müşterinin sipariş verdiği şehir güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_sehirGuncelleActionPerformed
+
+    private void musteriAdiGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_musteriAdiGuncelleActionPerformed
+       String sql = "Update musteribilgitablosu " + "Set musteri_adi = ? " + "WHERE musteri_id = ?";
+       String musteri_adi = gMusteriAdi2.getText();
+       String musteri_id = gMusteriID.getText();
+       int id = Integer.parseInt(musteri_id);
+       
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, musteri_adi);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Müşterinin adı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_musteriAdiGuncelleActionPerformed
+
+    private void urunAdiGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_urunAdiGuncelleActionPerformed
+       //İstenilen ürün adını id'ye çeviren fonksiyon yaz!
+       String sql = "Update siparistablosu " + "Set urun_id = ? " + "WHERE musteri_id = ?";
+       String bilesik_adi = gUrunAdi2.getText();
+       String musteri_id = gMusteriID.getText();
+       int id = Integer.parseInt(musteri_id);
+       
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, bilesik_adi);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Sipariş güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_urunAdiGuncelleActionPerformed
+
+    private void urunMiktariGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_urunMiktariGuncelleActionPerformed
+       String sql = "Update siparistablosu " + "Set miktar = ? " + "WHERE musteri_id = ?";
+       String urun_miktari = gUrunMiktari2.getText();
+       String musteri_id = gMusteriID.getText();
+       int id = Integer.parseInt(musteri_id);
+       int miktar = Integer.parseInt(urun_miktari);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, miktar);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Sipariş miktarı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_urunMiktariGuncelleActionPerformed
+
+    private void sehirAdiGuncelle2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sehirAdiGuncelle2ActionPerformed
+       String sql = "Update sehirtablosu " + "Set sehir_adi = ? " + "WHERE sehir_id = ?";
+       String sehir_adi = gSehir4.getText();
+       String sehir_id = gSehirID.getText();
+       int id = Integer.parseInt(sehir_id);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, sehir_adi);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Şehir adı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_sehirAdiGuncelle2ActionPerformed
+
+    private void sehirMesafeGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sehirMesafeGuncelleActionPerformed
+       String sql = "Update sehirtablosu " + "Set mesafe = ? " + "WHERE sehir_id = ?";
+       String mesafe = gMesafe.getText();
+       String sehir_id = gSehirID.getText();
+       int id = Integer.parseInt(sehir_id);
+       int mesafe2 = Integer.parseInt(mesafe);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, mesafe2);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Şehir mesafesi güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_sehirMesafeGuncelleActionPerformed
+
+    private void tabloYenile3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tabloYenile3ActionPerformed
+        DefaultTableModel tableModel = (DefaultTableModel) musteriTablosu.getModel();
+      try{
+          //Clear jtable
+          tableModel.setRowCount(0);
+
+          //Connection variables
+          Connection conn = MySQLJDBCUtil.getConnection();
+          String sql = "SELECT musteri_id, musteri_adi " + "FROM musteribilgitablosu";
+
+          //Create a Statement object.
+          Statement stmt  = conn.createStatement();
+          //Get query results
+          ResultSet rs    = stmt.executeQuery(sql);
+          //Print query results
+          while (rs.next()) {
+              
+              String id = rs.getString("musteri_id");
+              String adi = rs.getString("musteri_adi");
+              
+              
+              tableModel.addRow(new Object[]{id, adi});
+          }
+          rs.close();
+          stmt.close();
+
+
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_tabloYenile3ActionPerformed
+
+    private void gSehir5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gSehir5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gSehir5ActionPerformed
+
+    private void tabloYenile5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tabloYenile5ActionPerformed
+        DefaultTableModel tableModel = (DefaultTableModel) siparisTablosu.getModel();
+      try{
+          //Clear jtable
+          tableModel.setRowCount(0);
+
+          //Connection variables
+          Connection conn = MySQLJDBCUtil.getConnection();
+          String sql = "SELECT *" + "FROM siparistablosu";
+
+          //Create a Statement object.
+          Statement stmt  = conn.createStatement();
+          //Get query results
+          ResultSet rs    = stmt.executeQuery(sql);
+          //Print query results
+          while (rs.next()) {
+              
+              String id = rs.getString("musteri_id");
+              String sehir_adi = rs.getString("sehir_adi");
+              String urun_id = rs.getString("urun_id");
+              String miktar = rs.getString("miktar");
+              String siparis_id = rs.getString("siparis_id");
+              int siparis = Integer.parseInt(siparis_id);
+              String urun_adi = urunAdiDondur(siparis);
+              tableModel.addRow(new Object[]{siparis_id, id, sehir_adi, urun_adi, miktar});
+          }
+          rs.close();
+          stmt.close();
+
+
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_tabloYenile5ActionPerformed
+
+    private void siparisVerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_siparisVerActionPerformed
+         String musteriId = gMusteriID2.getText();
+         String urun_adi = gUrunAdi4.getText();
+         String miktar = gMiktar3.getText();
+         String sehir_adi = gSehir6.getText();
+         int id = Integer.parseInt(musteriId);
+         int miktar2 = Integer.parseInt(miktar);
+         int urun_id = urunIdDondur(urun_adi);
+        try{
+            //Connection variables
+            Connection conn = MySQLJDBCUtil.getConnection();
+            // for insert a new candidate
+            ResultSet rs = null;
+            int firmaId = 0;
+            String sql = "INSERT INTO siparistablosu(musteri_id, sehir_adi, urun_id, miktar)" + " values (?, ?, ?, ?)";
+            //Create a Statement object.
+            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            pstmt.setInt(1, id);
+            pstmt.setString(2, sehir_adi);
+            pstmt.setInt(3, urun_id);
+            pstmt.setInt(4, miktar2);
+            int rowAffected = pstmt.executeUpdate();
+
+            if(rowAffected == 1)
+            {
+
+                rs = pstmt.getGeneratedKeys();
+                if(rs.next())
+                firmaId = rs.getInt(1);
+                System.out.println("Sipariş eklendi eklendi.");
+            }
+            pstmt.close();
+            if(rs != null){
+                rs.close();
+            }
+            if(conn != null){
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }//GEN-LAST:event_siparisVerActionPerformed
+
+    private void gUrunEkleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gUrunEkleActionPerformed
+        String urunAdi = gUrunAdi3.getText();                            
+        try{
+            //Connection variables
+            Connection conn = MySQLJDBCUtil.getConnection();
+            // for insert a new candidate
+            ResultSet rs = null;
+            int firmaId = 0;
+            String sql = "INSERT INTO uretilenurunbilgisi(urun_adi)" + " values (?)";
+            //Create a Statement object.
+            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            pstmt.setString(1, urunAdi);
+            //pstmt.setInt(2, id);
+            //pstmt.setString(3, urunAdi);
+            //pstmt.setInt(4, miktar);
+            
+            int rowAffected = pstmt.executeUpdate();
+
+            if(rowAffected == 1)
+            {
+
+                rs = pstmt.getGeneratedKeys();
+                if(rs.next())
+                firmaId = rs.getInt(1);
+                System.out.println("Bileşik adı eklendi.");
+            }
+            pstmt.close();
+            if(rs != null){
+                rs.close();
+            }
+            if(conn != null){
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }//GEN-LAST:event_gUrunEkleActionPerformed
+
+    private void UrunAdiGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UrunAdiGuncelleActionPerformed
+       String sql = "Update uretilenurunbilgisi " + "Set urun_adi = ? " + "WHERE urun_id = ?";
+       String bilesik_adi = gUrunAdi3.getText();
+       String urun_id = gUrunID.getText();
+       int id = Integer.parseInt(urun_id);
+       
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, bilesik_adi);
+          pstmt.setInt(2, id);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Bileşik adı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_UrunAdiGuncelleActionPerformed
+
+    private void yeniElementEkleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yeniElementEkleActionPerformed
+            String urun_id = gUrunID.getText();            
+            String element = gYeniElement2.getText();
+            String miktar = gElementMiktari.getText(); 
+            int id = Integer.parseInt(urun_id);
+            int miktar2 = Integer.parseInt(miktar);
+            try{
+            //Connection variables
+            Connection conn = MySQLJDBCUtil.getConnection();
+            // for insert a new candidate
+            ResultSet rs = null;
+            int firmaId = 0;
+            String sql = "INSERT INTO uretilenurunicerigi(urun_id,element, adet)" + " values (?, ?, ?)";
+            //Create a Statement object.
+            PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            pstmt.setInt(1, id);
+            pstmt.setString(2, element);
+            pstmt.setInt(3, miktar2);       
+           
+            int rowAffected = pstmt.executeUpdate();
+
+            if(rowAffected == 1)
+            {
+
+                rs = pstmt.getGeneratedKeys();
+                if(rs.next())
+                firmaId = rs.getInt(1);
+                System.out.println("Belirtilen ürüne element ve miktarı eklendi.");
+            }
+            pstmt.close();
+            if(rs != null){
+                rs.close();
+            }
+            if(conn != null){
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }//GEN-LAST:event_yeniElementEkleActionPerformed
+
+    private void varolanElementiGüncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_varolanElementiGüncelleActionPerformed
+       String sql = "Update uretilenurunbilgisi " + "Set element = ? " + "WHERE urun_id = ? and element = ?";
+       String gecerli_element = gGecerliElement2.getText();
+       String yeni_element = gYeniElement2.getText();
+       String urun_id = gUrunID.getText();
+       int id = Integer.parseInt(urun_id);
+       
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setString(1, yeni_element);
+          pstmt.setInt(2, id);
+          pstmt.setString(3, gecerli_element);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Ürün elementi güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_varolanElementiGüncelleActionPerformed
+
+    private void elementMiktariGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_elementMiktariGuncelleActionPerformed
+        String sql = "Update uretilenurunbilgisi " + "Set miktar = ? " + "WHERE urun_id = ? and element = ?";
+       String gecerli_element = gGecerliElement2.getText();
+       String miktar = gElementMiktari.getText();
+       String urun_id = gUrunID.getText();
+       int id = Integer.parseInt(urun_id);
+       int miktar2 = Integer.parseInt(miktar);
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, miktar2);
+          pstmt.setInt(2, id);
+          pstmt.setString(3, gecerli_element);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Secilen üründe belirtilen elementin miktarı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_elementMiktariGuncelleActionPerformed
+
+    private void tabloYenile6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tabloYenile6ActionPerformed
+        DefaultTableModel tableModel = (DefaultTableModel) uretilenUrunlerTablosu.getModel();
+      try{
+          //Clear jtable
+          tableModel.setRowCount(0);
+
+          //Connection variables
+          Connection conn = MySQLJDBCUtil.getConnection();
+          String sql = "SELECT urun_id, urun_adi " + "FROM uretilenurunbilgisi";
+
+          //Create a Statement object.
+          Statement stmt  = conn.createStatement();
+          //Get query results
+          ResultSet rs    = stmt.executeQuery(sql);
+          //Print query results
+          while (rs.next()) {
+              String id = rs.getString("urun_id");
+              String name = rs.getString("urun_adi");
+              
+              tableModel.addRow(new Object[]{id, name});
+          }
+          rs.close();
+          stmt.close();
+
+
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_tabloYenile6ActionPerformed
+
+    private void tabloYenile7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tabloYenile7ActionPerformed
+        DefaultTableModel tableModel = (DefaultTableModel) uretilenUrunIcerigiTablosu.getModel();
+      try{
+          //Clear jtable
+          tableModel.setRowCount(0);
+
+          //Connection variables
+          Connection conn = MySQLJDBCUtil.getConnection();
+          String sql = "SELECT * " + "FROM uretilenurunicerigi";
+
+          //Create a Statement object.
+          Statement stmt  = conn.createStatement();
+          //Get query results
+          ResultSet rs    = stmt.executeQuery(sql);
+          //Print query results
+          while (rs.next()) {
+              String id = rs.getString("urun_id");
+              String element = rs.getString("element");
+              String adet = rs.getString("adet");
+              tableModel.addRow(new Object[]{id, element, adet});
+          }
+          rs.close();
+          stmt.close();
+
+
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_tabloYenile7ActionPerformed
+
+    private void gMiktar3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gMiktar3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gMiktar3ActionPerformed
+
+    public int urunIdDondur(String urunAdi){
+          int hata = 0;
+	String urunId;
+try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT urun_id " + "FROM uretilenurunbilgisi " + "WHERE urun_adi =" + "'" + urunAdi + "'";
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	rs.next();
+	urunId = rs.getString("urun_id");
+	System.out.println("Döndürülen ürün id: "+urunId);
+	int id = Integer.parseInt(urunId);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+		return id;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    return hata;	
+    }
+    
+    public int sehirIdDondur(String sehirAdi){
+        int hata = 0;
+	String sehirId;
+try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT sehir_id " + "FROM sehirtablosu " + "WHERE sehir_adi =" + "'" + sehirAdi + "'";
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	rs.next();
+	sehirId = rs.getString("sehir_id");
+	System.out.println(sehirId);
+	int id = Integer.parseInt(sehirId);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+		return id;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    return hata;	
+}
+    
+    public String urunAdiDondur(int id){
+        String urun_adi = new String();
+        String hata = new String("Hata");
+	try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT urun_adi " + "FROM uretilenurunbilgisi " + "WHERE urun_id =" + id;
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	rs.next();
+	urun_adi = rs.getString("urun_adi");
+	//System.out.println(sehir_adi);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+	return urun_adi;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+       return hata;
+    }
+    
+    public String sehirIsmiDondur(int id){
+	String sehir_adi = new String();
+        String hata = new String("Hata");
+	try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT sehir_adi " + "FROM sehirtablosu " + "WHERE sehir_id =" + id;
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	rs.next();
+	sehir_adi = rs.getString("sehir_adi");
+	//System.out.println(sehir_adi);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+	return sehir_adi;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+       return hata;
+}
+    
     
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -662,48 +2551,149 @@ public class Pencere2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton addButon;
-    private javax.swing.JButton addNewCustomer;
-    private javax.swing.JTextField gBirth;
-    private javax.swing.JTextField gEmail;
-    private javax.swing.JTextField gFirstName;
-    private javax.swing.JTextField gLastName;
-    private javax.swing.JTextField gPhone;
-    private javax.swing.JTextField getAddress;
-    private javax.swing.JTextField getCustomerName;
-    private javax.swing.JTextField getProduct;
+    private javax.swing.JButton UrunAdiGuncelle;
+    private javax.swing.JButton bolgeGuncelle;
+    private javax.swing.JButton elementGuncelle;
+    private javax.swing.JButton elementMiktariGuncelle;
+    private javax.swing.JButton firmaAdiGuncelle;
+    private javax.swing.JButton firmaEkle;
+    private javax.swing.JTable firmaHammaddeTablosu;
+    private javax.swing.JTextField gBolge;
+    private javax.swing.JTextField gBolge2;
+    private javax.swing.JTextField gElement;
+    private javax.swing.JTextField gElementMiktari;
+    private javax.swing.JTextField gFirmaAdi;
+    private javax.swing.JTextField gFirmaAdi2;
+    private javax.swing.JTextField gGecerliElement;
+    private javax.swing.JTextField gGecerliElement2;
+    private javax.swing.JTextField gID;
+    private javax.swing.JTextField gID2;
+    private javax.swing.JTextField gMesafe;
+    private javax.swing.JTextField gMesafe2;
+    private javax.swing.JTextField gMiktar;
+    private javax.swing.JTextField gMiktar2;
+    private javax.swing.JTextField gMiktar3;
+    private javax.swing.JTextField gMusteriAdi;
+    private javax.swing.JTextField gMusteriAdi2;
+    private javax.swing.JTextField gMusteriID;
+    private javax.swing.JTextField gMusteriID2;
+    private javax.swing.JTextField gRafOmru;
+    private javax.swing.JTextField gRafOmru2;
+    private javax.swing.JTextField gSatisFiyati;
+    private javax.swing.JTextField gSatisFiyati2;
+    private javax.swing.JTextField gSehir;
+    private javax.swing.JTextField gSehir2;
+    private javax.swing.JTextField gSehir3;
+    private javax.swing.JTextField gSehir4;
+    private javax.swing.JTextField gSehir5;
+    private javax.swing.JTextField gSehir6;
+    private javax.swing.JTextField gSehirID;
+    private javax.swing.JTextField gUretimTarihi;
+    private javax.swing.JTextField gUretimTarihi2;
+    private javax.swing.JTextField gUrunAdi2;
+    private javax.swing.JTextField gUrunAdi3;
+    private javax.swing.JTextField gUrunAdi4;
+    private javax.swing.JButton gUrunEkle;
+    private javax.swing.JTextField gUrunID;
+    private javax.swing.JTextField gUrunMiktari2;
+    private javax.swing.JTextField gYeniElement;
+    private javax.swing.JTextField gYeniElement2;
+    private javax.swing.JButton hammaddeEkle;
+    private javax.swing.JTable hammaddeUretenFirmaTablo;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JComboBox jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JButton refreshButton;
-    private javax.swing.JTable table;
-    private javax.swing.JTextField uEmail;
-    private javax.swing.JTextField uFirstName;
-    private javax.swing.JTextField uID;
-    private javax.swing.JTextField uLastName;
-    private javax.swing.JTextField uPhone;
-    private javax.swing.JButton updateEmail;
-    private javax.swing.JButton updateFirstName;
-    private javax.swing.JButton updateLastName;
-    private javax.swing.JButton updatePhone;
+    private javax.swing.JTable jTable6;
+    private javax.swing.JTable jTable7;
+    private javax.swing.JButton miktarGuncelle;
+    private javax.swing.JButton musteriAdiGuncelle;
+    private javax.swing.JButton musteriEkle;
+    private javax.swing.JTable musteriTablosu;
+    private javax.swing.JButton rafOmruGuncelle;
+    private javax.swing.JButton satisFiyatiGuncelle;
+    private javax.swing.JButton sehirAdiGuncelle;
+    private javax.swing.JButton sehirAdiGuncelle2;
+    private javax.swing.JButton sehirEkle;
+    private javax.swing.JButton sehirGuncelle;
+    private javax.swing.JButton sehirMesafeGuncelle;
+    private javax.swing.JTable sehirMesafeTablosu;
+    private javax.swing.JTable siparisTablosu;
+    private javax.swing.JButton siparisVer;
+    private javax.swing.JButton tabloYenile2;
+    private javax.swing.JButton tabloYenile3;
+    private javax.swing.JButton tabloYenile4;
+    private javax.swing.JButton tabloYenile5;
+    private javax.swing.JButton tabloYenile6;
+    private javax.swing.JButton tabloYenile7;
+    private javax.swing.JButton tabloYenille;
+    private javax.swing.JTable uretilenUrunIcerigiTablosu;
+    private javax.swing.JTable uretilenUrunlerTablosu;
+    private javax.swing.JButton uretimTarihiGuncelle;
+    private javax.swing.JButton urunAdiGuncelle;
+    private javax.swing.JButton urunMiktariGuncelle;
+    private javax.swing.JButton varolanElementiGüncelle;
+    private javax.swing.JButton yeniElementEkle;
     // End of variables declaration//GEN-END:variables
 }
