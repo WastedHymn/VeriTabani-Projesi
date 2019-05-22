@@ -145,7 +145,7 @@ public class Pencere2 extends javax.swing.JFrame {
         jScrollPane7 = new javax.swing.JScrollPane();
         jTable6 = new javax.swing.JTable();
         jScrollPane8 = new javax.swing.JScrollPane();
-        jTable7 = new javax.swing.JTable();
+        satinAlinanHammaddeBilgileri = new javax.swing.JTable();
         jButton18 = new javax.swing.JButton();
         jButton19 = new javax.swing.JButton();
         tabloYenile6 = new javax.swing.JButton();
@@ -169,13 +169,13 @@ public class Pencere2 extends javax.swing.JFrame {
         jPanel12 = new javax.swing.JPanel();
         jPanel14 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        siparisUret = new javax.swing.JButton();
-        jToggleButton1 = new javax.swing.JToggleButton();
+        gSiparisID = new javax.swing.JTextField();
+        elementAl = new javax.swing.JButton();
+        urunUret = new javax.swing.JToggleButton();
         jPanel15 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        karOraniDegistir = new javax.swing.JButton();
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -1192,7 +1192,7 @@ public class Pencere2 extends javax.swing.JFrame {
 
         jScrollPane8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Satın Alınan Hammadde Bilgileri", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 153, 0))); // NOI18N
 
-        jTable7.setModel(new javax.swing.table.DefaultTableModel(
+        satinAlinanHammaddeBilgileri.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -1208,9 +1208,14 @@ public class Pencere2 extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane8.setViewportView(jTable7);
+        jScrollPane8.setViewportView(satinAlinanHammaddeBilgileri);
 
         jButton18.setText("Tablo Yenile");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
         jButton19.setText("Tablo Yenile");
 
@@ -1349,7 +1354,7 @@ public class Pencere2 extends javax.swing.JFrame {
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 43, Short.MAX_VALUE)
+            .addGap(0, 54, Short.MAX_VALUE)
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1360,9 +1365,19 @@ public class Pencere2 extends javax.swing.JFrame {
 
         jLabel8.setText("Sipariş ID:");
 
-        siparisUret.setText("Hammadde Al");
+        elementAl.setText("Element Al");
+        elementAl.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                elementAlActionPerformed(evt);
+            }
+        });
 
-        jToggleButton1.setText("Ürün Üret");
+        urunUret.setText("Ürün Üret");
+        urunUret.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                urunUretActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -1372,13 +1387,13 @@ public class Pencere2 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel8)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(gSiparisID, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel14Layout.createSequentialGroup()
-                .addComponent(siparisUret)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton1)
-                .addGap(0, 10, Short.MAX_VALUE))
+                .addComponent(elementAl)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(urunUret)
+                .addGap(0, 6, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1386,11 +1401,11 @@ public class Pencere2 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(gSiparisID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(siparisUret)
-                    .addComponent(jToggleButton1))
+                    .addComponent(elementAl)
+                    .addComponent(urunUret))
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
@@ -1398,10 +1413,10 @@ public class Pencere2 extends javax.swing.JFrame {
 
         jLabel13.setText("Kâr Oranı:");
 
-        jButton1.setText("Uygula");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        karOraniDegistir.setText("Uygula");
+        karOraniDegistir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                karOraniDegistirActionPerformed(evt);
             }
         });
 
@@ -1418,7 +1433,7 @@ public class Pencere2 extends javax.swing.JFrame {
                         .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addGap(46, 46, 46)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(karOraniDegistir, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel15Layout.setVerticalGroup(
@@ -1429,7 +1444,7 @@ public class Pencere2 extends javax.swing.JFrame {
                     .addComponent(jLabel13)
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1)
+                .addComponent(karOraniDegistir)
                 .addContainerGap(15, Short.MAX_VALUE))
         );
 
@@ -2427,7 +2442,7 @@ public class Pencere2 extends javax.swing.JFrame {
     }//GEN-LAST:event_varolanElementiGüncelleActionPerformed
 
     private void elementMiktariGuncelleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_elementMiktariGuncelleActionPerformed
-        String sql = "Update uretilenurunbilgisi " + "Set miktar = ? " + "WHERE urun_id = ? and element = ?";
+       String sql = "Update uretilenurunbilgisi " + "Set miktar = ? " + "WHERE urun_id = ? and element = ?";
        String gecerli_element = gGecerliElement2.getText();
        String miktar = gElementMiktari.getText();
        String urun_id = gUrunID.getText();
@@ -2522,11 +2537,310 @@ public class Pencere2 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_gMiktar3ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void karOraniDegistirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_karOraniDegistirActionPerformed
         JOptionPane.showMessageDialog(new JFrame(),
     "Eggs are not supposed to be green. Ive been searching through the wreckage but its like standing in the eye of the storm. When will I get the message?\nSomethings are broken beyond repair");
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_karOraniDegistirActionPerformed
 
+    private void urunUretActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_urunUretActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_urunUretActionPerformed
+
+    private void elementAlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_elementAlActionPerformed
+        elementAl();
+    }//GEN-LAST:event_elementAlActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+         DefaultTableModel tableModel = (DefaultTableModel) satinAlinanHammaddeBilgileri.getModel();
+      try{
+          //Clear jtable
+          tableModel.setRowCount(0);
+
+          //Connection variables
+          Connection conn = MySQLJDBCUtil.getConnection();
+          String sql = "SELECT * " + "FROM satinalinanelementtablosu";
+
+          //Create a Statement object.
+          Statement stmt  = conn.createStatement();
+          //Get query results
+          ResultSet rs    = stmt.executeQuery(sql);
+          //Print query results
+          if(rs.next() == false){
+              System.out.println("ARCBITECTS");
+          }
+              
+          while (rs.next()) {
+              String id = rs.getString("firma_id");
+              System.out.println("ID: "+id);
+              String element = rs.getString("element");
+              System.out.println("ELEMENT: "+element);
+              String miktar = rs.getString("miktar");
+              System.out.println("MİKTAR: "+miktar);
+              String maliyet = rs.getString("maliyet");
+              String raf_omru = rs.getString("raf_omru");
+              tableModel.addRow(new Object[]{id, element, miktar, maliyet, raf_omru});
+          }
+          rs.close();
+          stmt.close();
+
+
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    
+    public void elementAl(){
+        String siparisId = gSiparisID.getText();
+        String urun_id = new String();
+        String siparismiktar = new String();
+        String elementadi = new String();
+        String elementmiktar = new String();
+        int siparisid = Integer.parseInt(siparisId);
+        int elementmiktar2, siparismiktar2, urunid, eldekimiktar = 0;
+        float masraf = 0;
+        try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	//siparişten ürün_idsini, miktarını al.
+        String sql = "SELECT urun_id, miktar " + "FROM siparistablosu " + "WHERE siparis_id =" + siparisid;
+	Statement stmt1 = conn.createStatement();
+        Statement stmt2 = conn.createStatement();
+        Statement stmt3 = conn.createStatement();
+        Statement stmt4 = conn.createStatement();
+	ResultSet siparis = stmt1.executeQuery(sql);
+	siparis.next();
+	//Urun id yi inte çevir
+        urun_id = siparis.getString("urun_id");
+        urunid = Integer.parseInt(urun_id);
+        //Sipariş miktarini int e çevir.
+        siparismiktar = siparis.getString("miktar");
+        siparismiktar2 = Integer.parseInt(siparismiktar);
+        
+	System.out.println(urun_id);
+        System.out.println(siparismiktar);
+       
+        //ürünün içerik bilgisini al.
+        String sql2 = "Select * " + "FROM uretilenurunicerigi " + "WHERE urun_id=" + urunid;
+        ResultSet urunicerigi = stmt2.executeQuery(sql2);
+         ResultSet tedarikciStok ;
+         ResultSet ureticiFirmaStok;
+        System.out.println("URUN ICERIGI");
+        while(urunicerigi.next()){
+            System.out.println("urun id " + urunicerigi.getString("urun_id") + " element:" + urunicerigi.getString("element") + " adet: " + urunicerigi.getString("adet"));
+            //Ürün içeriğindeki elementi ve miktarını al.
+            elementadi = urunicerigi.getString("element");
+            elementmiktar = urunicerigi.getString("adet");
+            elementmiktar2 = Integer.parseInt(elementmiktar);
+            //Tedarikcilerin elindeki ilgili element bilgilerini al.
+            String sql4 = "Select * " + "FROM tedarikcifirmastokbilgisi " + "WHERE element=" + "'" + elementadi+ "'" + " ORDER BY satis_fiyati ASC";
+            tedarikciStok = stmt3.executeQuery(sql4);
+            //Ürünün gerektiği kadarının stokta olup olmadığını kontrol et.
+                //Bileşik üreten firmanın stok bilgisini al.
+                String sql3 = "Select * " + "FROM satinalinanelementtablosu " + "WHERE element=" + "'"+elementadi+"'";
+                 ureticiFirmaStok = stmt4.executeQuery(sql3);
+                if(ureticiFirmaStok.next()){
+                    String deneme = ureticiFirmaStok.getString("miktar");
+                }
+                //İmleci tablonun ilk sütundan bir önceye getir.
+                ureticiFirmaStok.beforeFirst();
+                while(ureticiFirmaStok.next()){
+                    String a = ureticiFirmaStok.getString("miktar");
+                    int b = Integer.parseInt(a);
+                    eldekimiktar += b;
+                }
+                System.out.println(elementadi +" Elimizdeki stok: " + eldekimiktar);
+                
+                //İstenilen element varsa bir şey satın alma.
+                if(eldekimiktar >= elementmiktar2){
+                    //resultsetleri kapat.
+                    ureticiFirmaStok.close();
+                    tedarikciStok.close();
+                }
+                //Yoksa uygun fiyata satan satıcı ara.
+                else if(eldekimiktar < elementmiktar2){
+                    
+                    int alinmasigerekenmik = ((siparismiktar2*elementmiktar2) - eldekimiktar);
+                    //Satıcının stoğunda istediğim kadar var mı?
+                    while(tedarikciStok.next()){
+                            
+                            String idfirma = tedarikciStok.getString("firma_id");
+                            int idfirma2 = Integer.parseInt(idfirma);
+                            String var1 = tedarikciStok.getString("miktar");
+                            int var2 = Integer.parseInt(var1);
+                            String tarih = tedarikciStok.getString("uretim_tarihi");
+                            if(var2 > alinmasigerekenmik){
+                                //Üründen yeteri kadar al. var2 - alinmasigerekenmik diyerek element tedarikçisini güncelle. 
+                                //satın alınan element tablosunda bu tedarikçi yoksa ekle. varsa miktar bilgisini güncelle. daha sonra break
+                                boolean sonuc = tedarikciVarMi(idfirma2, elementadi);
+                               
+                                if(sonuc){
+                                    //ilgili satırdaki miktarı güncelle
+                                    int satirmiktar = miktarDondur(idfirma2, elementadi);
+                                   satinAlinanMiktarGuncelle(satirmiktar, alinmasigerekenmik, idfirma2, elementadi);
+                                    //Tedarikci güncellemesi
+                                    int yeniStok2 = var2 - alinmasigerekenmik;
+                                     miktarGuncelle(yeniStok2, idfirma2, tarih, elementadi);
+                                     alinmasigerekenmik = 0;
+                                }else{
+                                    //Yeni satır ekle tabloya
+                                                try{
+                                                         //Connection variables
+                                                        int sehir_id = firmaSehriDondur(idfirma2); 
+                                                        int sehirMesafe = sehirMesafeDondur(sehir_id);
+                                                        int bolge = bolgeDondur(sehir_id);
+                                                        if(bolge == 1){
+                                                            masraf = 0.5f * sehirMesafe;
+                                                        }else if(bolge ==2){
+                                                            masraf = 1.0f * sehirMesafe;
+                                                        }
+                                                        Connection conn2= MySQLJDBCUtil.getConnection();
+                                                         ResultSet rs = null;
+                                                         int firmaId = 0;
+                                                         String query = "INSERT INTO satinalinanelementtablosu(firma_id, element, miktar, maliyet, raf_omru, uretim_tarihi)" + " values (?, ?, ?, ?, ?, ?)";
+                                                        //Create a Statement object.
+                                                         PreparedStatement pstmt = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
+                                                         pstmt.setInt(1, idfirma2);
+                                                         pstmt.setString(2, elementadi);
+                                                         pstmt.setInt(3, alinmasigerekenmik);       
+                                                         pstmt.setFloat(4, masraf);
+                                                         pstmt.setInt(5, 5);       
+                                                         pstmt.setString(6, tarih);       
+                                                        int rowAffected = pstmt.executeUpdate();
+
+                                                        if(rowAffected == 1)
+                                                         {
+                                                           rs = pstmt.getGeneratedKeys();
+                                                              if(rs.next())
+                                                              firmaId = rs.getInt(1);
+                                                              System.out.println("Satın alınan element kayıt edildi.");
+                                                        }
+                                                            pstmt.close();
+                                                        if(rs != null){
+                                                            rs.close();
+                                                                    }
+                                                                if(conn != null){
+                                                                    conn.close();
+                                                                    }
+                                                    } catch (SQLException e) {
+                                                                e.printStackTrace();
+                                                    }
+                                //Tedarikçinin stoğunu güncelle
+                                int yeniStok = var2 - alinmasigerekenmik;
+                                miktarGuncelle(yeniStok, idfirma2, tarih, elementadi);
+                                alinmasigerekenmik = 0;
+                                }
+                            }else if(var2 < alinmasigerekenmik){
+                                //alinmasigerekenmik - var2 şeklinde satıcının stoğunu güncelle; 
+                                //ve satın alınan element tablosunda bu tedarikçi yoksa ekle. varsa miktar bilgisini güncelle.
+                                 boolean sonuc = tedarikciVarMi(idfirma2, elementadi);
+                                if(sonuc){
+                                    //ilgili satırdaki miktarı güncelle
+                                    int satirmiktar = miktarDondur(idfirma2, elementadi);
+                                   satinAlinanMiktarGuncelle(satirmiktar, var2, idfirma2, elementadi);
+                                    //Tedarikci güncellemesi
+                                    int yeniStok2 = 0;
+                                     miktarGuncelle(yeniStok2, idfirma2, tarih, elementadi);
+                                     alinmasigerekenmik -= var2;
+                                }else{
+                                    //Yeni satır ekle tabloya
+                                       try{
+                                                         //Connection variables
+                                                        int sehir_id = firmaSehriDondur(idfirma2); 
+                                                        int sehirMesafe = sehirMesafeDondur(sehir_id);
+                                                        int bolge = bolgeDondur(sehir_id);
+                                                        int mik = alinmasigerekenmik - var2;
+                                                        if(bolge == 1){
+                                                            masraf = 0.5f * sehirMesafe;
+                                                        }else if(bolge ==2){
+                                                            masraf = 1.0f * sehirMesafe;
+                                                        }
+                                                        Connection conn2= MySQLJDBCUtil.getConnection();
+                                                         ResultSet rs = null;
+                                                         int firmaId = 0;
+                                                         String query = "INSERT INTO satinalinanelementtablosu(firma_id, element, miktar, maliyet, raf_omru, uretim_tarihi)" + " values (?, ?, ?, ?, ?, ?)";
+                                                         //Create a Statement object.
+                                                         PreparedStatement pstmt = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
+                                                         pstmt.setInt(1, idfirma2);
+                                                         pstmt.setString(2, elementadi);
+                                                         pstmt.setInt(3, mik);       
+                                                         pstmt.setFloat(4, masraf);
+                                                         pstmt.setInt(5, 5);       
+                                                         pstmt.setString(6, tarih);       
+                                                        int rowAffected = pstmt.executeUpdate();
+                                                        
+                                                        if(rowAffected == 1)
+                                                         {
+                                                           rs = pstmt.getGeneratedKeys();
+                                                              if(rs.next())
+                                                              firmaId = rs.getInt(1);
+                                                              System.out.println("Satın alınan element kayıt edildi.");
+                                                        }
+                                                            pstmt.close();
+                                                        if(rs != null){
+                                                            rs.close();
+                                                                    }
+                                                                if(conn != null){
+                                                                    conn.close();
+                                                                    }
+                                                    } catch (SQLException e) {
+                                                                e.printStackTrace();
+                                                    }
+                                        alinmasigerekenmik -= var2;
+                                }
+                            }
+                            if(alinmasigerekenmik == 0){
+                                break;
+                            }
+                        }
+                        ///Daha önceden aynı satıcıdan aynı elementin satın alınıp alınmadığını da kontrol etmek gerek.
+                        //Varsa hepsini al. Diğer elemente geç
+                       
+                        //Yoksa 
+                }  
+                eldekimiktar = 0;
+        }
+        siparis.close();
+        urunicerigi.close();
+        stmt1.close();
+        stmt2.close();
+        stmt3.close();
+        stmt4.close();
+        if(conn != null){
+              conn.close();
+          }
+	
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }
+    
+     public int bolgeDondur(int sehir_id){
+         int bolge = 0;
+	String bollge;
+try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT bolge " + "FROM sehirtablosu " + "WHERE sehir_id =" + "'" + sehir_id + "'";
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	rs.next();
+	bollge = rs.getString("bolge");
+	System.out.println("Döndürülen bolge: "+bollge);
+	bolge = Integer.parseInt(bollge);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+		return bolge;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    return bolge;	
+    }
+    
     public int urunIdDondur(String urunAdi){
           int hata = 0;
 	String urunId;
@@ -2550,6 +2864,30 @@ try{
       }
     return hata;	
     }
+    
+    public int firmaSehriDondur(int id){
+        int hata = 0;
+	String sehirId;
+    try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT sehir_id " + "FROM tedarikcifirmabilgisi " + "WHERE firma_id =" + "'" + id + "'";
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	rs.next();
+	sehirId = rs.getString("sehir_id");
+	System.out.println(sehirId);
+	int new_id = Integer.parseInt(sehirId);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+	return new_id;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    return hata;	
+}
     
     public int sehirIdDondur(String sehirAdi){
         int hata = 0;
@@ -2620,7 +2958,129 @@ try{
       }
        return hata;
 }
+    public int miktarDondur(int firmaid, String elementadi){
+           String sql = "Select miktar " + "FROM satinalinanelementtablosu " + "WHERE firma_id=" + firmaid + " AND" + " element=" + "'" + elementadi +"'";
+           int mmiktar = 0;
+           String miktarr = "0";
+           try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	if(rs.next()){
+            miktarr = rs.getString("miktar");
+        }
+	//System.out.println(sehir_adi);
+        mmiktar = Integer.parseInt(miktarr);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+	return mmiktar;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+           return mmiktar;
+    }
+    public void satinAlinanMiktarGuncelle(int miktar, int miktar2, int firmaid, String elementadi){
+       String sql = "Update satinalinanelementtablosu " + "Set miktar = ? " + "WHERE firma_id = ? and element = ?";
+       int ymiktar = miktar + miktar2;
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+          pstmt.setInt(1, ymiktar);
+          pstmt.setInt(2, firmaid);
+          pstmt.setString(3, elementadi);
+          //pstmt.setString(3, uretimtarihi);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Belirtilen elementin miktarı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }
     
+    
+    public void miktarGuncelle(int miktar, int firmaid, String uretimtarihi, String elementadi){
+       String sql = "Update tedarikcifirmastokbilgisi " + "Set miktar = ? " + "WHERE firma_id = ? and element = ? and uretim_tarihi = ?";
+        try{          
+          Connection conn = MySQLJDBCUtil.getConnection();
+          //Create a Statement object.
+          PreparedStatement pstmt  = conn.prepareStatement(sql);
+            System.out.println("miktarGuncelle: " + miktar +" "+firmaid+" "+uretimtarihi+" "+elementadi);
+          pstmt.setInt(1, miktar);
+          pstmt.setInt(2, firmaid);
+          pstmt.setString(3, elementadi);
+          pstmt.setString(4, uretimtarihi);
+          int rowAffected = pstmt.executeUpdate();
+            System.out.println("Row affected " + rowAffected);
+          pstmt.close();
+            System.out.println("Secilen tedarikcide belirtilen elementin miktarı güncellendi.");
+          if(conn != null){
+              conn.close();
+          }
+      } catch (SQLException e) {
+          e.printStackTrace();
+      }
+    }
+    
+    public int sehirMesafeDondur(int sehir_id){
+        int mesafe = 0;
+	try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT mesafe " + "FROM sehirtablosu " + "WHERE sehir_id =" + sehir_id;
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	rs.next();
+	String messafe = rs.getString("sehir_adi");
+	//System.out.println(sehir_adi);
+        mesafe = Integer.parseInt(messafe);
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+	return mesafe;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+       return mesafe;
+    }
+    
+    
+    public boolean tedarikciVarMi(int id, String elementadi){
+        boolean sonuc = false;
+        String var1 = new String();
+        int var2;
+	try{
+        Connection conn = MySQLJDBCUtil.getConnection();
+	String sql = "SELECT firma_id " + "FROM satinalinanelementtablosu " + "WHERE element =" + "'" + elementadi + "'";
+	Statement stmt = conn.createStatement();
+	ResultSet rs    = stmt.executeQuery(sql);
+	while(rs.next()){
+            var1 = rs.getString("firma_id");
+            var2 = Integer.parseInt(var1);
+            if(var2 == id){
+                sonuc = true;
+                break;
+            }
+        }
+        rs.close();
+        stmt.close();
+        if(conn != null){
+              conn.close();
+          }
+	return true;
+        } catch (SQLException e) {
+          e.printStackTrace();
+      }
+        return sonuc;
+    }
     
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -2657,6 +3117,7 @@ try{
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton UrunAdiGuncelle;
     private javax.swing.JButton bolgeGuncelle;
+    private javax.swing.JButton elementAl;
     private javax.swing.JButton elementGuncelle;
     private javax.swing.JButton elementMiktariGuncelle;
     private javax.swing.JButton firmaAdiGuncelle;
@@ -2692,6 +3153,7 @@ try{
     private javax.swing.JTextField gSehir5;
     private javax.swing.JTextField gSehir6;
     private javax.swing.JTextField gSehirID;
+    private javax.swing.JTextField gSiparisID;
     private javax.swing.JTextField gUretimTarihi;
     private javax.swing.JTextField gUretimTarihi2;
     private javax.swing.JTextField gUrunAdi2;
@@ -2704,7 +3166,6 @@ try{
     private javax.swing.JTextField gYeniElement2;
     private javax.swing.JButton hammaddeEkle;
     private javax.swing.JTable hammaddeUretenFirmaTablo;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
     private javax.swing.JComboBox jComboBox1;
@@ -2775,15 +3236,14 @@ try{
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable6;
-    private javax.swing.JTable jTable7;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JButton karOraniDegistir;
     private javax.swing.JButton miktarGuncelle;
     private javax.swing.JButton musteriAdiGuncelle;
     private javax.swing.JButton musteriEkle;
     private javax.swing.JTable musteriTablosu;
     private javax.swing.JButton rafOmruGuncelle;
+    private javax.swing.JTable satinAlinanHammaddeBilgileri;
     private javax.swing.JButton satisFiyatiGuncelle;
     private javax.swing.JButton sehirAdiGuncelle;
     private javax.swing.JButton sehirAdiGuncelle2;
@@ -2792,7 +3252,6 @@ try{
     private javax.swing.JButton sehirMesafeGuncelle;
     private javax.swing.JTable sehirMesafeTablosu;
     private javax.swing.JTable siparisTablosu;
-    private javax.swing.JButton siparisUret;
     private javax.swing.JButton siparisVer;
     private javax.swing.JButton tabloYenile2;
     private javax.swing.JButton tabloYenile3;
@@ -2806,6 +3265,7 @@ try{
     private javax.swing.JButton uretimTarihiGuncelle;
     private javax.swing.JButton urunAdiGuncelle;
     private javax.swing.JButton urunMiktariGuncelle;
+    private javax.swing.JToggleButton urunUret;
     private javax.swing.JButton varolanElementiGüncelle;
     private javax.swing.JButton yeniElementEkle;
     // End of variables declaration//GEN-END:variables
